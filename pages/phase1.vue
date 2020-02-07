@@ -1,10 +1,12 @@
 <template>
   <section class="p-phase1">
     <div class="p-top">
-      <img class="p-top__img" src="https://placehold.jp/250x350.png">
       <div class="p-top__container">
-        <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
-        <h2 class="p-top__date">2020年6月　開催！</h2>
+        <img class="p-top__img" src="https://placehold.jp/300x350.png">
+        <div class="p-top__text">
+          <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
+          <h2 class="p-top__date">2020年6月　開催！</h2>
+        </div>
       </div>
     </div>
     <div class="p-about">
@@ -103,11 +105,22 @@ $site_title_font_size: 20px;
 }
 .p-top {
   text-align: center;
+  position: relative;
   &__img {
+    min-width: 100%;
+    min-height: 100%;
     margin-bottom: 20px;
   }
   &__container {
-    padding: 0 50px;
+  }
+  &__text {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    padding: 0 45px;
+    margin-bottom: 10px;
+    width: 100%;
   }
   &__title {
     display: inline-block;
