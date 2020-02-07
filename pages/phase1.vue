@@ -107,11 +107,7 @@ $site_title_font_size: 20px;
   text-align: center;
   position: relative;
   &__img {
-    min-width: 100%;
-    min-height: 100%;
     margin-bottom: 20px;
-  }
-  &__container {
   }
   &__text {
     position: absolute;
