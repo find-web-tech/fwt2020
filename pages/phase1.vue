@@ -196,13 +196,17 @@ $site_text_color: rgb(85, 85, 85);
   color: $site_color;
   text-align: center;
   font-weight: 700;
-  padding: 18px 0;
+  padding: 18px 45px;
   background-color: $site_bg_color;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &__icon {
-    
+    position: absolute;
+    left: 45px;
   }
   &__text {
-    padding: 18px 0;
   }
 }
 .p-footer {
