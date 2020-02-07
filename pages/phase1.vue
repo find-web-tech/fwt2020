@@ -257,7 +257,7 @@ $site_title_font_size: 20px;
   }
 }
 .p-footer {
-  padding: 45px;
+  padding: 45px 25px;
   background-color: $site_color;
   .p-sns {
     text-align: center;
