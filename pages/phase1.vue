@@ -87,9 +87,11 @@ export default {
 $site_color: rgb(5, 62, 160);
 $site_bg_color: rgb(250, 250, 250);
 $site_text_color: rgb(85, 85, 85);
+$site_title_font_size: 20px;
 
 * {
   font-family: "Hiragino Sans";
+  letter-spacing: 1.3px;
 }
 
 .p-phase1 {
@@ -106,17 +108,16 @@ $site_text_color: rgb(85, 85, 85);
   }
   &__title {
     display: inline-block;
-    font-size: 24px;
+    font-size: $site_title_font_size;
     font-weight: 700;
-    letter-spacing: 1.3pt;
     color: $site_text_color;
     margin-bottom: 32px;
+    text-align: left;
   }
   &__date {
     display: inline-block;
-    font-size: 20px;
+    font-size: $site_title_font_size;
     font-weight: 700;
-    letter-spacing: 1.3pt;
     padding-bottom: 11px;
     color: $site_text_color;
   }
@@ -128,9 +129,10 @@ $site_text_color: rgb(85, 85, 85);
     padding: 40px 18px;
   }
   &__titleText {
-    font-size: 24px;
+    font-size: $site_title_font_size;
     font-weight: 700;
     color: $site_text_color;
+    white-space: nowrap;
   }
   &__desc {
     margin-top: 32px;
@@ -146,7 +148,7 @@ $site_text_color: rgb(85, 85, 85);
     padding: 40px 18px;
   }
   &__title {
-    font-size: 24px;
+    font-size: $site_title_font_size;
     font-weight: 700;
     color: $site_text_color;
     margin-bottom: 32px;
@@ -173,7 +175,7 @@ $site_text_color: rgb(85, 85, 85);
     padding: 40px 18px;
   }
   &__title {
-    font-size: 24px;
+    font-size: $site_title_font_size;
     font-weight: 700;
     color: $site_text_color;
     margin-bottom: 32px;
@@ -216,7 +218,6 @@ $site_text_color: rgb(85, 85, 85);
     text-align: center;
     color: white;
     font-size: 14px;
-    letter-spacing: 1.3pt;
     &__twitter, &__instagram {
       position: relative;
       margin: 0 auto;
@@ -242,7 +243,8 @@ $site_text_color: rgb(85, 85, 85);
   }
   &__title {
     color: white;
-    font-size: 24px;
+    font-size: $site_title_font_size;
+    white-space: nowrap;
     font-weight: 700;
   }
 }
