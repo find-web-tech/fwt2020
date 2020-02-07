@@ -127,15 +127,13 @@ $site_text_color: rgb(85, 85, 85);
     background-color: $site_bg_color;
     padding: 40px 18px;
   }
-  &__title {
-    margin-bottom: 32px;
-  }
   &__titleText {
     font-size: 24px;
     font-weight: 700;
     color: $site_text_color;
   }
   &__desc {
+    margin-top: 32px;
     font-size: 14px;
     color: $site_text_color;
   }
