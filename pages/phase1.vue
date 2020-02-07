@@ -220,7 +220,7 @@ $site_text_color: rgb(85, 85, 85);
     &__twitter, &__instagram {
       position: relative;
       margin: 0 auto;
-      border: 2px solid white;
+      border: 3px solid white;
       padding: 12px 14px;
       margin-bottom: 24px;
     }
@@ -230,12 +230,12 @@ $site_text_color: rgb(85, 85, 85);
       left: 16px;
     }
     &__blog {
-      border: 2px solid white;
+      border: 3px solid white;
       padding: 12px 14px;
       margin-bottom: 24px;
     }
     &__connpass {
-      border: 2px solid white;
+      border: 3px solid white;
       padding: 12px 14px;
       margin-bottom: 90px;
     }
