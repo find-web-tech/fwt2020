@@ -1,54 +1,76 @@
 <template>
   <section class="p-phase1">
     <div class="p-top">
-      <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
-      <h3 class="p-top__date">2020年6月　開催！</h3>
+      <img class="p-top__img" src="https://placehold.jp/250x350.png">
+      <div class="p-top__container">
+        <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
+        <h3 class="p-top__date">2020年6月　開催！</h3>
+      </div>
     </div>
     <div class="p-about">
-      <h1 class="p-about__title">About</h1>
-      <h1 class="p-about__title">Find Web/Tech Job</h1>
-      <h1 class="p-about__title">Expo Osaka</h1>
-      <h1 class="p-about__title">2020</h1>
-      <div class="p-about__desc">
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+      <div class="p-about__container">
+        <div clas="p-about__title">
+          <h1 class="p-about__titleText">About</h1>
+          <h1 class="p-about__titleText">Find Web/Tech Job</h1>
+          <h1 class="p-about__titleText">Expo Osaka</h1>
+          <h1 class="p-about__titleText">2020</h1>
+        </div>
+        <div class="p-about__desc">
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+        </div>
       </div>
     </div>
     <div class="p-recruit">
-      <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
-      <div class="p-recruit__desc">
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+      <div class="p-recruit__container">
+        <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
+        <div class="p-recruit__desc">
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+        </div>
+        <div class="p-recruit__btn btn-primary rounded-pill">応募はこちらから</div>
       </div>
-      <div class="p-recruit__btn btn-primary rounded-pill">応募はこちらから</div>
     </div>
     <div class="p-sponsor">
-      <h1 class="p-sponsor__title">スポンサー募集中！</h1>
-      <div class="p-sponsor__desc">
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
-        説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+      <div class="p-sponsor__container">
+        <h1 class="p-sponsor__title">スポンサー募集中！</h1>
+        <div class="p-sponsor__desc">
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+          説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
+        </div>
+        <div class="p-sponsor__btn btn-primary rounded-pill">応募はこちらから</div>
       </div>
-      <div class="p-sponsor__btn btn-primary rounded-pill">応募はこちらから</div>
     </div>
     <div class="p-scroll">
-      <span>トップへ戻る</span>
+      <img class="p-scroll__icon" src="https://placehold.jp/16x16.png">
+      <span class="p-scroll__text">トップへ戻る</span>
     </div>
     <div class="p-footer">
       <div class="p-sns">
-        <div class="p-sns__twitter">Twitterはこちら</div>
-        <div class="p-sns__instagram">instagramはこちら</div>
-        <div class="p-sns__blog">公式ブログはこちら</div>
-        <div class="p-sns__connpass">connpassはこちら</div>
+        <div class="p-sns__twitter">
+          <img class="p-sns__twitterIcon" src="https://placehold.jp/20x16.png" alt="twitter">
+          <span class="p-sns__text">Twitterはこちら</span>
+        </div>
+        <div class="p-sns__instagram">
+          <img class="p-sns__instagramIcon" src="https://placehold.jp/20x16.png" alt="instagram">
+          <span class="p-sns__text">instagramはこちら</span>
+        </div>
+        <div class="p-sns__blog">
+          <span class="p-sns__text">公式ブログはこちら</span>
+        </div>
+        <div class="p-sns__connpass">
+          <span class="p-sns__text">connpassはこちら</span>
+        </div>
       </div>
-      <div class="p-footer__text">Find Web/Tech Job</div>
-      <div class="p-footer__text">Expo Osaka</div>
-      <div class="p-footer__text">2020</div>
+      <div class="p-footer__title">Find Web/Tech Job</div>
+      <div class="p-footer__title">Expo Osaka</div>
+      <div class="p-footer__title">2020</div>
     </div>
   </section>
 
@@ -63,74 +85,163 @@ export default {
 
 <style lang="scss" scoped>
 $site_color: rgb(5, 62, 160);
+$site_bg_color: rgb(250, 250, 250);
+$site_text_color: rgb(85, 85, 85);
+
+* {
+  font-family: "Hiragino Sans";
+}
 
 .p-phase1 {
 }
 .p-top {
-  padding: 80% 50px 0 50px;
+  text-align: center;
+  &__img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  &__container {
+    padding: 0 50px;
+  }
   &__title {
     display: inline-block;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 700;
     letter-spacing: 1.3pt;
+    color: $site_text_color;
+    margin-bottom: 32px;
   }
   &__date {
     display: inline-block;
     font-size: 20px;
+    font-weight: 700;
     letter-spacing: 1.3pt;
     padding-bottom: 11px;
+    color: $site_text_color;
   }
 }
 .p-about {
   padding: 80px 30px;
+  &__container {
+    background-color: $site_bg_color;
+    padding: 40px 18px;
+  }
   &__title {
+    margin-bottom: 32px;
+  }
+  &__titleText {
     font-size: 24px;
+    font-weight: 700;
+    color: $site_text_color;
   }
   &__desc {
     font-size: 14px;
+    color: $site_text_color;
   }
 }
 .p-recruit {
-  padding: 80px 30px;
+  padding: 40px 30px;
   width: 100%;
+  &__container {
+    background-color: $site_bg_color;
+    padding: 40px 18px;
+  }
   &__title {
     font-size: 24px;
+    font-weight: 700;
+    color: $site_text_color;
+    margin-bottom: 32px;
   }
   &__desc {
     font-size: 14px;
     margin-bottom: 20px;
+    color: $site_text_color;
   }
   &__btn {
     text-align: center;
-    width: 70%;
+    width: 80%;
     font-size: 14px;
     margin: 0 auto;
-    padding: 15px 40px;
-    background-color: rgb(5, 62, 160);
+    padding: 15px 20px;
+    background-color: $site_color;
   }
 }
 .p-sponsor {
   padding: 80px 30px;
   width: 100%;
+  &__container {
+    background-color: $site_bg_color;
+    padding: 40px 18px;
+  }
   &__title {
     font-size: 24px;
+    font-weight: 700;
+    color: $site_text_color;
+    margin-bottom: 32px;
   }
   &__desc {
     font-size: 14px;
     margin-bottom: 20px;
+    color: $site_text_color;
   }
   &__btn {
     text-align: center;
-    width: 70%;
+    width: 80%;
     font-size: 14px;
     margin: 0 auto;
-    padding: 15px 40px;
+    padding: 15px 20px;
     background-color: $site_color;
   }
 }
 .p-scroll {
   color: $site_color;
+  text-align: center;
+  font-weight: 700;
+  padding: 18px 0;
+  background-color: $site_bg_color;
+  &__icon {
+    
+  }
+  &__text {
+    padding: 18px 0;
+  }
 }
 .p-footer {
+  padding: 45px;
   background-color: $site_color;
+  .p-sns {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.3pt;
+    &__twitter, &__instagram {
+      position: relative;
+      margin: 0 auto;
+      border: 2px solid white;
+      padding: 12px 14px;
+      margin-bottom: 24px;
+    }
+    &__twitterIcon, &__instagramIcon {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+    }
+    &__blog {
+      border: 2px solid white;
+      padding: 12px 14px;
+      margin-bottom: 24px;
+    }
+    &__connpass {
+      border: 2px solid white;
+      padding: 12px 14px;
+      margin-bottom: 90px;
+    }
+  }
+  &__title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+  }
 }
 </style>
