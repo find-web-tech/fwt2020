@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="p-about">
-      <div class="p-about__container">
+      <div class="p-about__container container">
         <img class="p-about__img" src="https://placehold.jp/250x350.png">
         <div clas="p-about__title">
           <h1 class="p-about__titleText">About</h1>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="p-recruit">
-      <div class="p-recruit__container">
+      <div class="p-recruit__container container">
         <img class="p-recruit__img" src="https://placehold.jp/250x350.png">
         <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
         <p class="p-recruit__desc">
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="p-sponsor">
-      <div class="p-sponsor__container">
+      <div class="p-sponsor__container container">
         <img class="p-sponsor__img" src="https://placehold.jp/250x350.png">
         <h1 class="p-sponsor__title">スポンサー募集中！</h1>
         <p class="p-sponsor__desc">
@@ -50,12 +50,12 @@
         <div class="p-sponsor__btn btn-primary rounded-pill">応募はこちらから</div>
       </div>
     </div>
-    <div class="p-scroll">
+    <div class="p-scroll container">
       <img class="p-scroll__icon" src="https://placehold.jp/16x16.png">
       <span class="p-scroll__text">トップへ戻る</span>
     </div>
     <div class="p-footer">
-      <div class="p-sns">
+      <div class="p-sns container">
         <div class="p-sns__twitter">
           <img class="p-sns__twitterIcon" src="https://placehold.jp/20x16.png" alt="twitter">
           <span class="p-sns__text">Twitterはこちら</span>
@@ -71,9 +71,11 @@
           <span class="p-sns__text">connpassはこちら</span>
         </div>
       </div>
-      <div class="p-footer__title">Find Web/Tech Job</div>
-      <div class="p-footer__title">Expo Osaka</div>
-      <div class="p-footer__title">2020</div>
+      <div class="p-footer__title container">
+        <div class="p-footer__titleText">Find Web/Tech Job</div>
+        <div class="p-footer__titleText">Expo Osaka</div>
+        <div class="p-footer__titleText">2020</div>
+      </div>
     </div>
   </section>
 
@@ -102,8 +104,6 @@ $site_title_font_size: 20px;
 .p-top {
   text-align: center;
   &__img {
-    width: 100%;
-    height: 100%;
     margin-bottom: 20px;
   }
   &__container {
@@ -139,6 +139,7 @@ $site_title_font_size: 20px;
     padding: 40px 18px;
     z-index: -2;
     position: relative;
+    max-width: 640px;
   }
   &__titleText {
     font-size: $site_title_font_size;
@@ -167,6 +168,7 @@ $site_title_font_size: 20px;
     padding: 40px 18px;
     z-index: -2;
     position: relative;
+    max-width: 640px;
   }
   &__title {
     font-size: $site_title_font_size;
@@ -186,6 +188,7 @@ $site_title_font_size: 20px;
     margin: 0 auto;
     padding: 15px 20px;
     background-color: $site_color;
+    max-width: 200px;
   }
 }
 .p-sponsor {
@@ -203,6 +206,7 @@ $site_title_font_size: 20px;
     padding: 40px 18px;
     z-index: -2;
     position: relative;
+    max-width: 640px;
   }
   &__title {
     font-size: $site_title_font_size;
@@ -222,6 +226,7 @@ $site_title_font_size: 20px;
     margin: 0 auto;
     padding: 15px 20px;
     background-color: $site_color;
+    max-width: 200px;
   }
 }
 .p-scroll {
@@ -234,6 +239,7 @@ $site_title_font_size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 640px;
   &__icon {
     position: absolute;
     left: 45px;
@@ -248,6 +254,7 @@ $site_title_font_size: 20px;
     text-align: center;
     color: white;
     font-size: 14px;
+    max-width: 640px;
     &__twitter, &__instagram {
       position: relative;
       margin: 0 auto;
@@ -272,6 +279,9 @@ $site_title_font_size: 20px;
     }
   }
   &__title {
+    max-width: 640px;
+  }
+  &__titleText {
     color: white;
     font-size: $site_title_font_size;
     white-space: nowrap;
