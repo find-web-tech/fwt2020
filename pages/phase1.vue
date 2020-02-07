@@ -242,7 +242,7 @@ $site_text_color: rgb(85, 85, 85);
   }
   &__title {
     color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
   }
 }
