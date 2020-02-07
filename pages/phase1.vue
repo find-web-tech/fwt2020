@@ -4,11 +4,12 @@
       <img class="p-top__img" src="https://placehold.jp/250x350.png">
       <div class="p-top__container">
         <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
-        <h3 class="p-top__date">2020年6月　開催！</h3>
+        <h2 class="p-top__date">2020年6月　開催！</h2>
       </div>
     </div>
     <div class="p-about">
       <div class="p-about__container">
+        <img class="p-about__img" src="https://placehold.jp/250x350.png">
         <div clas="p-about__title">
           <h1 class="p-about__titleText">About</h1>
           <h1 class="p-about__titleText">Find Web/Tech Job</h1>
@@ -25,6 +26,7 @@
     </div>
     <div class="p-recruit">
       <div class="p-recruit__container">
+        <img class="p-recruit__img" src="https://placehold.jp/250x350.png">
         <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
         <p class="p-recruit__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -37,6 +39,7 @@
     </div>
     <div class="p-sponsor">
       <div class="p-sponsor__container">
+        <img class="p-sponsor__img" src="https://placehold.jp/250x350.png">
         <h1 class="p-sponsor__title">スポンサー募集中！</h1>
         <p class="p-sponsor__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -115,7 +118,6 @@ $site_title_font_size: 20px;
     text-align: left;
   }
   &__date {
-    display: inline-block;
     font-size: $site_title_font_size;
     font-weight: 700;
     padding-bottom: 11px;
@@ -124,9 +126,19 @@ $site_title_font_size: 20px;
 }
 .p-about {
   padding: 80px 30px;
+  position: relative;
+  &__img {
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: -30px;
+  }
   &__container {
     background-color: $site_bg_color;
+    width: 100%;
     padding: 40px 18px;
+    z-index: -2;
+    position: relative;
   }
   &__titleText {
     font-size: $site_title_font_size;
@@ -143,9 +155,18 @@ $site_title_font_size: 20px;
 .p-recruit {
   padding: 40px 30px;
   width: 100%;
+  position: relative;
+  &__img {
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    right: -30px;
+  }
   &__container {
     background-color: $site_bg_color;
     padding: 40px 18px;
+    z-index: -2;
+    position: relative;
   }
   &__title {
     font-size: $site_title_font_size;
@@ -170,9 +191,18 @@ $site_title_font_size: 20px;
 .p-sponsor {
   padding: 80px 30px;
   width: 100%;
+  position: relative;
+  &__img {
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+    left: -30px;
+  }
   &__container {
     background-color: $site_bg_color;
     padding: 40px 18px;
+    z-index: -2;
+    position: relative;
   }
   &__title {
     font-size: $site_title_font_size;
