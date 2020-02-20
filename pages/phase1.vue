@@ -2,7 +2,7 @@
   <section class="p-phase1">
     <div class="p-top">
       <div class="p-top__container">
-        <img class="p-top__img" src="https://placehold.jp/300x350.png">
+        <img class="p-top__img" src="../assets/img/lemon333.png">
         <div class="p-top__text">
           <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
           <h2 class="p-top__date">2020年6月　開催！</h2>
@@ -11,7 +11,7 @@
     </div>
     <div class="p-about">
       <div class="p-about__container container">
-        <img class="p-about__img" src="https://placehold.jp/250x350.png">
+        <img class="p-about__img" src="../assets/img/Yellow222.png">
         <div clas="p-about__title">
           <h1 class="p-about__titleText">About</h1>
           <h1 class="p-about__titleText">Find Web/Tech Job</h1>
@@ -28,7 +28,7 @@
     </div>
     <div class="p-recruit">
       <div class="p-recruit__container container">
-        <img class="p-recruit__img" src="https://placehold.jp/250x350.png">
+        <img class="p-recruit__img" src="../assets/img/Yellow222.png">
         <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
         <p class="p-recruit__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -41,7 +41,7 @@
     </div>
     <div class="p-sponsor">
       <div class="p-sponsor__container container">
-        <img class="p-sponsor__img" src="https://placehold.jp/250x350.png">
+        <img class="p-sponsor__img" src="../assets/img/Yellow222.png">
         <h1 class="p-sponsor__title">スポンサー募集中！</h1>
         <p class="p-sponsor__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -59,11 +59,11 @@
     <div class="p-footer">
       <div class="p-sns container">
         <div class="p-sns__twitter">
-          <img class="p-sns__twitterIcon" src="https://placehold.jp/20x16.png" alt="twitter">
+          <img class="p-sns__twitterIcon" src="assets/img/twitter_icon.png" alt="twitter">
           <span class="p-sns__text">Twitterはこちら</span>
         </div>
         <div class="p-sns__instagram">
-          <img class="p-sns__instagramIcon" src="https://placehold.jp/20x16.png" alt="instagram">
+          <img class="p-sns__instagramIcon" src="assets/img/unstaglam_icon.png" alt="instagram">
           <span class="p-sns__text">instagramはこちら</span>
         </div>
         <div class="p-sns__blog">
