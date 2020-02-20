@@ -2,16 +2,16 @@
   <section class="p-phase1">
     <div class="p-top">
       <div class="p-top__container">
-        <img class="p-top__img" src="https://placehold.jp/300x350.png">
+        <img class="p-top__img" src="../assets/img/lemon333.png">
         <div class="p-top__text">
-          <h2 class="p-top__title">仮）学生による学生のための就活イベント！</h2>
+          <h2 class="p-top__title">仮）学生による学生のための<br>就活イベント！</h2>
           <h2 class="p-top__date">2020年6月　開催！</h2>
         </div>
       </div>
     </div>
     <div class="p-about">
       <div class="p-about__container container">
-        <img class="p-about__img" src="https://placehold.jp/250x350.png">
+        <img class="p-about__img" src="../assets/img/Yellow222.png">
         <div clas="p-about__title">
           <h1 class="p-about__titleText">About</h1>
           <h1 class="p-about__titleText">Find Web/Tech Job</h1>
@@ -28,7 +28,7 @@
     </div>
     <div class="p-recruit">
       <div class="p-recruit__container container">
-        <img class="p-recruit__img" src="https://placehold.jp/250x350.png">
+        <img class="p-recruit__img" src="../assets/img/Yellow222.png">
         <h1 class="p-recruit__title">学生スタッフ募集中！</h1>
         <p class="p-recruit__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -41,7 +41,7 @@
     </div>
     <div class="p-sponsor">
       <div class="p-sponsor__container container">
-        <img class="p-sponsor__img" src="https://placehold.jp/250x350.png">
+        <img class="p-sponsor__img" src="../assets/img/Yellow222.png">
         <h1 class="p-sponsor__title">スポンサー募集中！</h1>
         <p class="p-sponsor__desc">
           説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。説明文が入るよ。
@@ -52,18 +52,15 @@
         <div class="p-sponsor__btn btn-primary rounded-pill">応募はこちらから</div>
       </div>
     </div>
-    <div class="p-scroll container">
-      <img class="p-scroll__icon" src="https://placehold.jp/16x16.png">
-      <span class="p-scroll__text">トップへ戻る</span>
-    </div>
+  
     <div class="p-footer">
       <div class="p-sns container">
         <div class="p-sns__twitter">
-          <img class="p-sns__twitterIcon" src="https://placehold.jp/20x16.png" alt="twitter">
+          <img class="p-sns__twitterIcon" src="../assets/img/twitter_icon.svg" alt="twitter">
           <span class="p-sns__text">Twitterはこちら</span>
         </div>
         <div class="p-sns__instagram">
-          <img class="p-sns__instagramIcon" src="https://placehold.jp/20x16.png" alt="instagram">
+          <img class="p-sns__instagramIcon" src="../assets/img/instagram_icon.svg" alt="instagram">
           <span class="p-sns__text">instagramはこちら</span>
         </div>
         <div class="p-sns__blog">
@@ -104,10 +101,12 @@ $site_title_font_size: 20px;
 .p-phase1 {
 }
 .p-top {
+  // background-image: 
   text-align: center;
   position: relative;
   &__img {
     margin-bottom: 20px;
+    width: 100%;
   }
   &__text {
     position: absolute;
@@ -120,14 +119,14 @@ $site_title_font_size: 20px;
   }
   &__title {
     display: inline-block;
-    font-size: $site_title_font_size;
+    font-size: 36px;
     font-weight: 700;
     color: $site_text_color;
     margin-bottom: 32px;
-    text-align: left;
+    text-align: center;
   }
   &__date {
-    font-size: $site_title_font_size;
+    font-size: 36px;
     font-weight: 700;
     padding-bottom: 11px;
     color: $site_text_color;
@@ -151,7 +150,7 @@ $site_title_font_size: 20px;
     max-width: 640px;
   }
   &__titleText {
-    font-size: $site_title_font_size;
+    font-size: 24px;
     font-weight: 700;
     color: $site_text_color;
     white-space: nowrap;
@@ -180,7 +179,7 @@ $site_title_font_size: 20px;
     max-width: 640px;
   }
   &__title {
-    font-size: $site_title_font_size;
+    font-size: 24px;
     font-weight: 700;
     color: $site_text_color;
     margin-bottom: 32px;
@@ -218,7 +217,7 @@ $site_title_font_size: 20px;
     max-width: 640px;
   }
   &__title {
-    font-size: $site_title_font_size;
+    font-size: 24px;
     font-weight: 700;
     color: $site_text_color;
     margin-bottom: 32px;
